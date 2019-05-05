@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+
 import SEO from '../components/seo'
 import Layout from '../components/layout'
 import Post from '../components/post'
@@ -24,34 +25,17 @@ const Tags = ({
           Posts with tag: <span>#{tag}</span>
         </div>
 
-        {posts.map(({ node }) => {
-          const {
-            id,
-            excerpt: autoExcerpt,
-            frontmatter: {
-              title,
-              date,
-              path,
-              author,
-              coverImage,
-              excerpt,
-              tags,
-            },
-          } = node
-
-          return (
-            <Post
-              key={id}
-              title={title}
-              date={date}
-              path={path}
-              author={author}
-              tags={tags}
-              coverImage={coverImage}
-              excerpt={excerpt || autoExcerpt}
-            />
-          )
-        })}
+        {posts.map(({ node }) => (
+          <Post
+            key={node.id}
+            title={node.frontmatter.title}
+            date={node.frontmatter.date}
+            path={node.frontmatter.path}
+            tags={node.frontmatter.tags}
+            coverImage={node.frontmatter.coverImage}
+            excerpt={node.frontmatter.excerpt || node.excerpt.autoExcerpt}
+          />
+        ))}
 
         <Navigation
           previousPath={previousPagePath}
@@ -88,7 +72,6 @@ export const postsQuery = graphql`
             title
             date(formatString: "DD MMMM YYYY")
             path
-            author
             excerpt
             tags
             coverImage {

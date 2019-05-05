@@ -1,8 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import style from '../styles/footer.module.css'
+
 const Footer = ({ copyrights }) => (
-  <footer>
+  <footer className={style.footer}>
     {copyrights ? (
       <div
         dangerouslySetInnerHTML={{
@@ -11,11 +13,14 @@ const Footer = ({ copyrights }) => (
       />
     ) : (
       <>
-        <span className="footerCopyrights">
-          © 2019 Built with <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <span className={style.footerCopyrights}>
+          © 2019 Raphael Odini
         </span>
-        <span className="footerCopyrights">
-          Starter created by <a href="https://radoslawkoziel.pl">panr</a>
+        <span className={style.footerCopyrights}>
+          Built with <a href="https://www.gatsbyjs.org">Gatsby</a>
+        </span>
+        <span className={style.footerCopyrights}>
+          Theme by <a href="https://radoslawkoziel.pl">panr</a>
         </span>
       </>
     )}

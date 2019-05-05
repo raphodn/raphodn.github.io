@@ -6,8 +6,8 @@ const { toKebabCase } = require('./src/helpers')
 const pageTypeRegex = /src\/(.*?)\//
 const getType = node => node.fileAbsolutePath.match(pageTypeRegex)[1]
 
-const pageTemplate = path.resolve(`./src/templates/page.js`)
-const indexTemplate = path.resolve(`./src/templates/index.js`)
+const blogPostTemplate = path.resolve(`./src/templates/blog-post.js`)
+// const blogTemplate = path.resolve(`./src/pages/blog.js`)
 const tagsTemplate = path.resolve(`./src/templates/tags.js`)
 
 exports.createPages = ({ actions, graphql, getNodes }) => {
@@ -50,7 +50,6 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
     const sortedPages = markdownPages.sort((pageA, pageB) => {
       const typeA = getType(pageA.node)
       const typeB = getType(pageB.node)
-
       return (typeA > typeB) - (typeA < typeB)
     })
 
@@ -61,13 +60,13 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
     )
 
     // Create posts index with pagination
-    paginate({
-      createPage,
-      items: posts,
-      component: indexTemplate,
-      itemsPerPage: siteMetadata.postsPerPage,
-      pathPrefix: '/',
-    })
+    // paginate({
+    //   createPage,
+    //   items: posts,
+    //   component: blogPostTemplate,
+    //   itemsPerPage: siteMetadata.postsPerPage,
+    //   pathPrefix: '/blog',
+    // })
 
     // Create each markdown page and post
     forEach(({ node }, index) => {
@@ -80,11 +79,11 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
 
       createPage({
         path: node.frontmatter.path,
-        component: pageTemplate,
+        component: blogPostTemplate,
         context: {
           type: getType(node),
-          next: isNextSameType ? next : null,
-          previous: isPreviousSameType ? previous : null,
+          // next: isNextSameType ? next : null,
+          // previous: isPreviousSameType ? previous : null,
         },
       })
     }, sortedPages)
@@ -101,17 +100,19 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
           post.frontmatter.tags && post.frontmatter.tags.indexOf(tag) !== -1,
       )
 
-      paginate({
-        createPage,
-        items: postsWithTag,
-        component: tagsTemplate,
-        itemsPerPage: siteMetadata.postsPerPage,
-        pathPrefix: `/tag/${toKebabCase(tag)}`,
-        context: {
-          tag,
-        },
-      })
+      // paginate({
+      //   createPage,
+      //   items: postsWithTag,
+      //   component: tagsTemplate,
+      //   itemsPerPage: siteMetadata.postsPerPage,
+      //   pathPrefix: `/tag/${toKebabCase(tag)}`,
+      //   context: {
+      //     tag,
+      //   },
+      // })
     }, tags)
+
+    // console.log(sortedPages)
 
     return {
       sortedPages,
@@ -129,7 +130,6 @@ exports.sourceNodes = ({ actions }) => {
 
     type Frontmatter {
       title: String!
-      author: String
       date: Date!
       path: String!
       tags: [String!]

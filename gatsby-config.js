@@ -7,18 +7,18 @@ const postCSSMixins = require('postcss-mixins')
 
 module.exports = {
   siteMetadata: {
-    title: `Hello Friend`,
-    description: `A simple starter for Gatsby. That's it.`,
+    title: `Raphael Odini · datalover & full-stack software engineer`,
+    description: `A space to share things I care about, projects and notes. Also my resume :)`,
     copyrights: '',
-    author: `@panr`,
+    author: `@raphodn`,
     logo: {
       src: '',
       alt: '',
     },
-    logoText: 'hello friend',
+    logoText: 'Raphael Odini',
     defaultTheme: 'dark',
     postsPerPage: 5,
-    showMenuItems: 2,
+    showMenuItems: 3,
     menuMoreText: 'Show more',
     mainMenu: [
       {
@@ -26,12 +26,12 @@ module.exports = {
         path: '/about',
       },
       {
-        title: 'Showcase',
-        path: '/showcase',
+        title: 'Projects',
+        path: '/projects',
       },
       {
-        title: 'Example',
-        path: '/example',
+        title: 'Blog',
+        path: '/blog',
       },
     ],
   },
@@ -114,13 +114,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-hello-friend`,
-        short_name: `hello-friend`,
+        name: `raphael-odini-website`,
+        short_name: `raphael-odini-website`,
         start_url: `/`,
         background_color: `#292a2d`,
         theme_color: `#292a2d`,
         display: `minimal-ui`,
-        icon: `src/images/hello-icon.png`,
+        icon: `src/images/icon.png`,
       },
     },
   ],
