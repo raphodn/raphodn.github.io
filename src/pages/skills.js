@@ -3,6 +3,9 @@ import { graphql } from 'gatsby'
 
 import SEO from '../components/seo'
 import Layout from '../components/layout'
+// import images from '../images'
+
+// console.log(images)
 
 export default ({ data }) => (
   <>
@@ -12,6 +15,10 @@ export default ({ data }) => (
       
       <p>
         Coming soon :)
+      </p>
+
+      <p>
+        <img src='{images.experience-ef.png}' alt='' />
       </p>
     </Layout>
   </>

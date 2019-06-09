@@ -108,6 +108,10 @@ module.exports = {
               noInlineHighlight: false,
             },
           },
+          {
+            resolve: `gatsby-remark-twemoji-shortcut`,
+            options: {}
+          }
         ],
       },
     },

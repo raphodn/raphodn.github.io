@@ -48,13 +48,15 @@ export default ({ data }) => (
       <h3>Passions</h3>
 
       <p>
-        <b>Fields I care about:</b> Data visualization, Cartography, Digital commons, Privacy, Social entrepreneurship, Data journalism, Education & Civic tech,
-        Blockchain & Decentralization, Graph databases, Zero waste, Sustainability & Resilience, Future of food, DIY & Maker culture,
-        Urbanism & Urbex, Creative code, Contemporary art with a touch of data
+        <b>Fields I care about: </b>
+        Data visualization, Cartography, Digital commons, Privacy, Knowledge Management, Social entrepreneurship,
+        Data journalism, Education & Civic tech, Blockchain & Decentralization, Graph databases, Zero waste, Sustainability & Resilience,
+        Future of food, DIY & Maker culture, Urbanism & Urbex, Creative code, Contemporary art with a touch of data
       </p>
 
       <p>
-        <b>A subset of activities I enjoy doing:</b> Reading & Learning, Football, Urban cycling, Piano, Snowboard, Sailing, Hiking, Backpacking, Origami, Stargazing
+        <b>A subset of activities I enjoy doing: </b>
+        Reading & Learning, Football, Urban cycling, Piano, Snowboard, Sailing, Hiking, Backpacking, Origami, Stargazing
       </p>
 
       <h3>Elsewhere Online</h3>

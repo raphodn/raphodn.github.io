@@ -21,7 +21,7 @@ export default ({ data }) => (
       </p>
 
       <p>
-        Oh and I like penguins.
+        Oh and I like penguins 🐧
       </p>
 
       <p>
