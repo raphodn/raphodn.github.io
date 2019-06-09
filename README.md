@@ -44,6 +44,12 @@ This is the source code of [my personal website](https://raphodn.github.io/). Bu
   yarn deploy
   ```
 
+## Branches
+
+master: deployed static website. `yarn deploy` builds and pushes the code to the master branch.
+
+development: raw code & pages
+
 ## Useful resources
 
 Theme used: https://github.com/panr/gatsby-starter-hello-friend
