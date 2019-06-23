@@ -31,7 +31,9 @@ const Sitemap = ({ data }) => {
         <ul className="margin-top-0">
           <li><Link to='/blog'>Blog home</Link></li>
           {posts.map(({ node }) => (
-            <li><Link to={node.frontmatter.path}>{node.frontmatter.date}: {node.frontmatter.title}</Link></li>
+            <li key={node.frontmatter.path}>
+              <Link to={node.frontmatter.path}>{node.frontmatter.date}: {node.frontmatter.title}</Link>
+            </li>
           ))}
         </ul>
 
@@ -40,6 +42,7 @@ const Sitemap = ({ data }) => {
           <li><Link to='/404'>404</Link></li>
         </ul>
 
+        <br />
         <br />
 
         <i>Last updated: {sitemapJson.updated_at}</i>

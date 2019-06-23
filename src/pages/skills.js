@@ -17,7 +17,7 @@ export default () => {
           skills {
             name
             level
-            subtitle
+            description
           }
         }
       }
@@ -37,7 +37,7 @@ export default () => {
               {skillGroup.skills.map((childSkill, childIndex) => (
                 <li key={childIndex}>
                   {childSkill.name} <span hidden={!childSkill.level}>[{childSkill.level}/5]</span>
-                  <br /> <small><i>{childSkill.subtitle}</i></small>
+                  <br /> <small><i>{childSkill.description}</i></small>
                 </li>
               ))}
             </ul>
@@ -45,12 +45,9 @@ export default () => {
         ))}
 
         <br />
+        <br />
 
         <i>Last updated: {data.skillsJson.updated_at}</i>
-
-        {/* <p>
-          <img src='{images.experience-ef.png}' alt='' />
-        </p> */}
       </Layout>
     </>
   )

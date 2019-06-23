@@ -42,7 +42,7 @@ export default ({ data }) => (
       </p>
 
       <p>
-        More info <Link to='/skills'>here</Link> !
+        See <Link to='/skills'>Skills</Link> & <Link to='/experiences'>Experiences</Link> for more details.
       </p>
 
       <h3>Passions</h3>

@@ -9,22 +9,22 @@
         {
           "name": "Python",
           "level": 4.5,
-          "subtitle": "Flask, Django, Jupyter, Numpy, Pandas, Packages"
+          "description": "Flask, Django, Jupyter, Numpy, Pandas, Packages"
         },
         {
           "name": "Node.JS",
           "level": 4,
-          "subtitle": "Express, Sequelize, Mocha, middlewares"
+          "description": "Express, Sequelize, Mocha, middlewares"
         },
         {
           "name": "Ruby on Rails",
           "level": 3.5,
-          "subtitle": ""
+          "description": ""
         },
         {
           "name": "APIs",
           "level": 4.5,
-          "subtitle": "building, leveraging, security, Swagger, Postman"
+          "description": "building, leveraging, security, Swagger, Postman"
         }
       ]
     },
@@ -34,27 +34,27 @@
         {
           "name": "PostgreSQL",
           "level": 3.5,
-          "subtitle": ""
+          "description": ""
         },
         {
           "name": "MongoDB",
           "level": 3.5,
-          "subtitle": ""
+          "description": ""
         },
         {
           "name": "ElasticSearch",
           "level": 4,
-          "subtitle": ""
+          "description": ""
         },
         {
           "name": "Graph Databases",
           "level": 4,
-          "subtitle": "AWS Neptune, Neo4j"
+          "description": "AWS Neptune, Neo4j"
         },
         {
           "name": "Cassandra",
           "level": 1.5,
-          "subtitle": ""
+          "description": ""
         }
       ]
     },
@@ -64,22 +64,22 @@
         {
           "name": "AWS",
           "level": 4,
-          "subtitle": ""
+          "description": ""
         },
         {
           "name": "Heroku",
           "level": 4,
-          "subtitle": ""
+          "description": ""
         },
         {
           "name": "Docker",
           "level": 3.5,
-          "subtitle": ""
+          "description": ""
         },
         {
           "name": "Testing",
           "level": null,
-          "subtitle": "Mocha, Chai, Selenium, Webdriver"
+          "description": "Mocha, Chai, Selenium, Webdriver"
         }
       ]
     },
@@ -89,22 +89,22 @@
         {
           "name": "Javascript",
           "level": 5,
-          "subtitle": "TypeScript, AngularJS 1-7, D3.js, Web Components, Gatsby (React), ES6"
+          "description": "TypeScript, AngularJS 1-7, D3.js, Web Components, Gatsby (React), ES6"
         },
         {
           "name": "CSS / SCSS",
           "level": 3.5,
-          "subtitle": ""
+          "description": ""
         },
         {
           "name": "HTML",
           "level": 4,
-          "subtitle": ""
+          "description": ""
         },
         {
           "name": "Mobile",
           "level": 2.5,
-          "subtitle": "Ionic"
+          "description": "Ionic"
         }
       ]
     },
@@ -114,17 +114,17 @@
         {
           "name": "Sketch",
           "level": 2.5,
-          "subtitle": ""
+          "description": ""
         },
         {
           "name": "Balsamiq",
           "level": 3,
-          "subtitle": ""
+          "description": ""
         },
         {
           "name": "inVision",
           "level": 3,
-          "subtitle": ""
+          "description": ""
         }
       ]
     },
@@ -134,17 +134,42 @@
         {
           "name": "Git",
           "level": 4,
-          "subtitle": "Gitlab, Github"
+          "description": "Gitlab, Github"
         },
         {
           "name": "Atlassian",
           "level": null,
-          "subtitle": "JIRA, Confluence, Bitbucket"
+          "description": "JIRA, Confluence, Bitbucket"
         },
         {
           "name": "MS Office",
           "level": null,
-          "subtitle": ""
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Certifications",
+      "skills": [
+        {
+          "name": "AWS Solutions Architect",
+          "level": null,
+          "description": "soon hopefully :)"
+        },
+        {
+          "name": "Blockchain Developer Program (ConsenSys Academy)",
+          "level": null,
+          "description": "2018"
+        },
+        {
+          "name": "Scrum Master (PSM I)",
+          "level": null,
+          "description": "2017"
+        },
+        {
+          "name": "TOEIC",
+          "level": null,
+          "description": "2014"
         }
       ]
     }

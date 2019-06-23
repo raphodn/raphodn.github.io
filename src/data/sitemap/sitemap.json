@@ -19,6 +19,10 @@
           "url": "/skills"
         },
         {
+          "name": "Experiences",
+          "url": "/experiences"
+        },
+        {
           "name": "Now",
           "url": "/now"
         },
