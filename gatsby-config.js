@@ -60,6 +60,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-postcss`,
       options: {
         postCssPlugins: [
@@ -110,11 +117,12 @@ module.exports = {
           },
           {
             resolve: `gatsby-remark-twemoji-shortcut`,
-            options: {}
-          }
+            options: {},
+          },
         ],
       },
     },
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
