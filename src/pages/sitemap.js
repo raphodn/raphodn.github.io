@@ -7,6 +7,7 @@ import Layout from '../components/layout'
 const Sitemap = ({ data }) => {
   const {
     allMarkdownRemark: { edges: posts },
+    sitemapJson,
   } = data
 
   return (
@@ -15,20 +16,16 @@ const Sitemap = ({ data }) => {
       <Layout>
         <h1>Sitemap</h1>
 
-        <h3>About</h3>
-        <ul className="margin-top-0">
-          <li><Link to='/'>Home</Link></li>
-          <li><Link to='/about'>About</Link></li>
-          <li><Link to='/skills'>Skills</Link></li>
-          <li><Link to='/now'>Now</Link></li>
-          <li><Link to='/colophon'>Colophon</Link></li>
-        </ul>
-
-        <h3>Projects</h3>
-        <ul className="margin-top-0">
-          <li><Link to='/projects'>Projects home</Link></li>
-          {/* <li></li> */}
-        </ul>
+        {sitemapJson.sitemapGroups.map((sitemapGroup, sitemapGroupIndex) => (
+          <section key={sitemapGroupIndex}>
+            <h3>{sitemapGroup.name}</h3>
+            <ul className="margin-top-0">
+              {sitemapGroup.links.map((child, childIndex) => (
+                <li key={childIndex}><Link to={child.url}>{child.name}</Link></li>
+              ))}
+            </ul>
+          </section>
+        ))}
 
         <h3>Blog Posts</h3>
         <ul className="margin-top-0">
@@ -42,6 +39,10 @@ const Sitemap = ({ data }) => {
         <ul className="margin-top-0">
           <li><Link to='/404'>404</Link></li>
         </ul>
+
+        <br />
+
+        <i>Last updated: {sitemapJson.updated_at}</i>
       </Layout>
     </>
   )
@@ -71,6 +72,16 @@ export const postsQuery = graphql`
               }
             }
           }
+        }
+      }
+    },
+    sitemapJson {
+      updated_at(formatString: "DD MMMM YYYY")
+      sitemapGroups {
+        name
+        links {
+          name
+          url
         }
       }
     }
