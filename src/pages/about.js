@@ -24,7 +24,7 @@ export default ({ data }) => (
       </p>
 
       <p>
-        I'm currently working as a Full-Stack Developer for <i><a href="https://www.refinitiv.com/" target="_blank" rel="noopener noreferrer">Refinitiv</a> <a href="https://labs.refinitiv.com/About" target="_blank" rel="noopener noreferrer">Labs</a></i> in Singapore.
+        I'm currently working as a Full-Stack Developer for <i><a href="https://www.refinitiv.com/" target="_blank" rel="noopener noreferrer">Refinitiv</a> <a href="https://www.refinitiv.com/en/innovation-labs" target="_blank" rel="noopener noreferrer">Labs</a></i> in Singapore.
       </p>
 
       <h3>Professional Experiences & Skills</h3>

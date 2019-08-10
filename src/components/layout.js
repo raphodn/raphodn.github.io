@@ -52,7 +52,11 @@ const Layout = ({ children }) => {
         mainMenuItems={showMenuItems}
         menuMoreText={menuMoreText}
       />
-      <div className="content">{children}</div>
+      <div className="content">
+        <div>
+          {children}
+        </div>
+      </div>
       <Footer copyrights={copyrights} />
     </div>
   )

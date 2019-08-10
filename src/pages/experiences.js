@@ -13,8 +13,10 @@ export default () => {
       experiencesJson {
         updated_at(formatString: "DD MMMM YYYY")
         experienceGroups {
+          id
           name
           experiences {
+            id
             name
             location
             dates
@@ -33,17 +35,18 @@ export default () => {
 
         {data.experiencesJson.experienceGroups.map((experienceGroup, experienceGroupIndex) => (
           <section key={experienceGroupIndex}>
-            <h3>{experienceGroup.name}</h3>
+            <br />
+            <h3 id={experienceGroup.id}>{experienceGroup.name}</h3>
             {experienceGroup.experiences.map((childExperience, childIndex) => (
               <div key={childIndex}>
                 <p className="margin-bottom-0">
-                  <b>{childExperience.name}</b>
+                  <b id={childExperience.id}>{childExperience.name}</b>
                   <span className="padding-left-right-10">|</span>
                   {childExperience.location}
                   <span className="padding-left-right-10">|</span>
                   {childExperience.dates}
                 </p>
-                <small>soon</small>
+                <small dangerouslySetInnerHTML={{ __html: childExperience.description }} />
               </div>
               
               // <div key={childIndex}>
