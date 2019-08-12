@@ -100,16 +100,16 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
           post.frontmatter.tags && post.frontmatter.tags.indexOf(tag) !== -1,
       )
 
-      // paginate({
-      //   createPage,
-      //   items: postsWithTag,
-      //   component: tagsTemplate,
-      //   itemsPerPage: siteMetadata.postsPerPage,
-      //   pathPrefix: `/tag/${toKebabCase(tag)}`,
-      //   context: {
-      //     tag,
-      //   },
-      // })
+      paginate({
+        createPage,
+        items: postsWithTag,
+        component: tagsTemplate,
+        itemsPerPage: siteMetadata.postsPerPage,
+        pathPrefix: `/blog/tag/${toKebabCase(tag)}`,
+        context: {
+          tag,
+        },
+      })
     }, tags)
 
     // console.log(sortedPages)

@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 
 import SEO from '../components/seo'
 import Layout from '../components/layout'
@@ -22,7 +22,10 @@ const Tags = ({
       <SEO />
       <Layout>
         <div className="infoBanner">
-          Posts with tag: <span>#{tag}</span>
+          Posts with tag: <span style={{ 'font-weight': 'bold' }}>#{tag}</span>
+          <span style={{ float: 'right' }}>
+            <Link to="/blog">Remove filter</Link>
+          </span>
         </div>
 
         {posts.map(({ node }) => (

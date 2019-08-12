@@ -3,6 +3,7 @@ title: "New personal website!"
 date: "2019-05-05"
 path: "/blog/new-personal-website"
 excerpt: ""
+tags: ["2019"]
 ---
 
 It took a while, but I finally allocated some time to revamp my personal website.

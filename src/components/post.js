@@ -64,7 +64,7 @@ const Post = ({
               <div className={style.tags}>
                 {tags.map(tag => (
                   <span>
-                    <Link to={`/tag/${toKebabCase(tag)}/`} key={toKebabCase(tag)}>
+                    <Link to={`/blog/tag/${toKebabCase(tag)}/`} key={toKebabCase(tag)}>
                       <span className={style.tag}>#{tag}</span>
                     </Link>
                     <span>&nbsp;&nbsp;</span>

@@ -242,7 +242,7 @@ hr {
 }
 
 .infoBanner {
-  text-align: left;
+  /* text-align: left; */
   margin: 20px 0 40px;
   padding: 10px 20px;
   border-radius: 10px;
@@ -251,10 +251,6 @@ hr {
 
   .dark-theme & {
     background: var(--dark-background-secondary);
-  }
-
-  span {
-    font-weight: bold;
   }
 }
 

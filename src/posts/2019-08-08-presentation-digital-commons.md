@@ -3,6 +3,7 @@ title: "A presentation on the digital commons"
 date: "2019-08-08"
 path: "/blog/presentation-digital-commons"
 excerpt: ""
+tags: ["digital-commons", "2019"]
 ---
 
 Over the last 2 months, the size of the team at Refinitiv Labs has almost doubled. With the new joiners, we've decided to setup a bi-monthly _Passion Share_ session where anyone can introduce us to an activity or project they're passionate about.
