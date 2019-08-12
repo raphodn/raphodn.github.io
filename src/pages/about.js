@@ -10,7 +10,7 @@ export default ({ data }) => (
     <Layout>
       <h1>About</h1>
       
-      <h3>Background</h3>
+      <h2>Background</h2>
 
       <p>
         Born & raised in the French Alps (<a href="https://www.google.fr/maps/place/Grenoble/@45.9918528,0.6514919,6z/" target="_blank" rel="noopener noreferrer">Grenoble</a>),
@@ -27,7 +27,7 @@ export default ({ data }) => (
         I'm currently working as a Full-Stack Developer for <i><a href="https://www.refinitiv.com/" target="_blank" rel="noopener noreferrer">Refinitiv</a> <a href="https://www.refinitiv.com/en/innovation-labs" target="_blank" rel="noopener noreferrer">Labs</a></i> in Singapore.
       </p>
 
-      <h3>Professional Experiences & Skills</h3>
+      <h2>Professional Experiences & Skills</h2>
 
       <p>
         I have over 4 years of experience working as a full-stack developer, on a dozen+ different projects, in teams of various sizes and nationalities.
@@ -42,10 +42,10 @@ export default ({ data }) => (
       </p>
 
       <p>
-        See <Link to='/skills'>Skills</Link> & <Link to='/experiences'>Experiences</Link> for more details.
+        See <Link to='/skills'>Skills</Link> and <Link to='/experiences'>Experiences</Link> for more details.
       </p>
 
-      <h3>Passions</h3>
+      <h2>Passions</h2>
 
       <p>
         <b>Fields I care about: </b>
@@ -59,7 +59,7 @@ export default ({ data }) => (
         Reading & Learning, Football, Urban cycling, Piano, Snowboard, Sailing, Hiking, Backpacking, Origami, Stargazing
       </p>
 
-      <h3>Elsewhere Online</h3>
+      <h2>Elsewhere Online</h2>
 
       <p>
         I (re)tweet stuff <a href="https://twitter.com/raphodn" target="_blank" rel="noopener noreferrer">@raphodn</a>
@@ -69,7 +69,7 @@ export default ({ data }) => (
         My professional background on <a href="https://www.linkedin.com/in/raphaelodini/" target="_blank" rel="noopener noreferrer">LinkedIn</a> & <a href="https://angel.co/raphaelodini" target="_blank" rel="noopener noreferrer">AngelList</a>
       </p>
 
-      <h3>Contact</h3>
+      <h2>Contact</h2>
 
       <p>
         You can reach out to me through Twitter, or via email (firstname <i>dot</i> lastname <i>at</i> gmail <i>dot</i> com)

@@ -18,7 +18,7 @@ const Sitemap = ({ data }) => {
 
         {sitemapJson.sitemapGroups.map((sitemapGroup, sitemapGroupIndex) => (
           <section key={sitemapGroupIndex}>
-            <h3>{sitemapGroup.name}</h3>
+            <h2>{sitemapGroup.name}</h2>
             <ul className="margin-top-0">
               {sitemapGroup.links.map((child, childIndex) => (
                 <li key={childIndex}><Link to={child.url}>{child.name}</Link></li>
@@ -27,7 +27,7 @@ const Sitemap = ({ data }) => {
           </section>
         ))}
 
-        <h3>Blog Posts</h3>
+        <h2>Blog Posts</h2>
         <ul className="margin-top-0">
           <li><Link to='/blog'>Blog home</Link></li>
           {posts.map(({ node }) => (
@@ -37,7 +37,7 @@ const Sitemap = ({ data }) => {
           ))}
         </ul>
 
-        <h3>Other</h3>
+        <h2>Other</h2>
         <ul className="margin-top-0">
           <li><Link to='/404'>404</Link></li>
         </ul>

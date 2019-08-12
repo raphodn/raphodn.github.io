@@ -17,9 +17,11 @@ export default () => {
           name
           experiences {
             id
+            show
             name
             location
             dates
+            website
             description
           }
         }
@@ -35,18 +37,24 @@ export default () => {
 
         {data.experiencesJson.experienceGroups.map((experienceGroup, experienceGroupIndex) => (
           <section key={experienceGroupIndex}>
-            <br />
-            <h3 id={experienceGroup.id}>{experienceGroup.name}</h3>
-            {experienceGroup.experiences.map((childExperience, childIndex) => (
+            <h2 id={experienceGroup.id}>{experienceGroup.name}</h2>
+            {experienceGroup.experiences.filter(exp => exp.show).map((childExperience, childIndex) => (
               <div key={childIndex}>
-                <p className="margin-bottom-0">
+                <h3>
                   <b id={childExperience.id}>{childExperience.name}</b>
                   <span className="padding-left-right-10">|</span>
                   {childExperience.location}
                   <span className="padding-left-right-10">|</span>
                   {childExperience.dates}
-                </p>
-                <small dangerouslySetInnerHTML={{ __html: childExperience.description }} />
+                  {!childExperience.website ? null : (
+                    <span>
+                      <span className="padding-left-right-10">|</span>
+                      <a href={childExperience.website} target='_blank' rel='noopener noreferrer'>website</a>
+                    </span>
+                  )}
+                </h3>
+                <div dangerouslySetInnerHTML={{ __html: childExperience.description }} />
+                <br />
               </div>
               
               // <div key={childIndex}>
