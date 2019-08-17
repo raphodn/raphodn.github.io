@@ -40,6 +40,19 @@
           "url": "/projects"
         }
       ]
+    },
+    {
+      "name": "Sandbox",
+      "links": [
+        {
+          "name": "Sandbox Home",
+          "url": "/sandbox"
+        },
+        {
+          "name": "Random Quote",
+          "url": "/sandbox/quote"
+        }
+      ]
     }
   ]
 }

@@ -26,6 +26,7 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
               path
               title
               tags
+              published
             }
             fileAbsolutePath
           }
@@ -133,6 +134,7 @@ exports.sourceNodes = ({ actions }) => {
       date: Date!
       path: String!
       tags: [String!]
+      published: Boolean
       excerpt: String
       coverImage: File
     }

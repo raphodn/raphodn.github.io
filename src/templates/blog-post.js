@@ -43,6 +43,7 @@ export const pageQuery = graphql`
         path
         excerpt
         tags
+        published
         coverImage {
           childImageSharp {
             fluid(maxWidth: 800) {

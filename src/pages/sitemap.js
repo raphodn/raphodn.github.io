@@ -40,7 +40,6 @@ const Sitemap = ({ data }) => {
 
         <h2>Other</h2>
         <ul className="margin-top-0">
-          <li><Link to='/quote'>Random Quote</Link></li>
           <li><Link to='/404'>404</Link></li>
         </ul>
 
@@ -56,7 +55,7 @@ const Sitemap = ({ data }) => {
 export const postsQuery = graphql`
   {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "//posts//" } }
+      filter: { fileAbsolutePath: { regex: "//posts//" }, frontmatter: { published: { eq: true } } }
       sort: { fields: [frontmatter___date], order: ASC }
     ) {
       edges {
@@ -69,6 +68,7 @@ export const postsQuery = graphql`
             path
             excerpt
             tags
+            published
             coverImage {
               childImageSharp {
                 fluid(maxWidth: 800) {
