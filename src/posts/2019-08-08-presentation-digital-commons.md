@@ -16,6 +16,4 @@ There's 2 personal projects I worked on this year that relate to the subject of 
 
 Anyway, the presentation went great!
 
-The slides can be accessd here (done a bit quickly using Markdown):
-- Slides: <a href="https://hackmd.io/@raphodn/BkyI9MDXS" target="_blank" rel="noopener noreferrer">https://hackmd.io/@raphodn/BkyI9MDXS</a>
-- Raw file <a href="https://github.com/raphodn/digital-commons-presentation/blob/master/digital-commons-presentation.md" target="_blank" rel="noopener noreferrer">here</a>
+The slides can be accessed here (done a bit quickly using Markdown): <a href="https://hackmd.io/@raphodn/BkyI9MDXS" target="_blank" rel="noopener noreferrer">https://hackmd.io/@raphodn/BkyI9MDXS</a> (for the raw Markdown file, click <a href="https://github.com/raphodn/digital-commons-presentation/blob/master/digital-commons-presentation.md" target="_blank" rel="noopener noreferrer">here</a>)

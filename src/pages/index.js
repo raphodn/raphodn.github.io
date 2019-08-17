@@ -25,7 +25,7 @@ export default ({ data }) => (
       </p>
 
       <p>
-        For more info & contact details, see <Link to='/about'>About</Link>
+        For more info & contact details, see <Link to='/about'>About</Link>.
       </p>
     </Layout>
   </>

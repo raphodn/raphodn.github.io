@@ -123,6 +123,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-json`,
+    `gatsby-transformer-csv`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

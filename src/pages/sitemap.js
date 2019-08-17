@@ -29,7 +29,7 @@ const Sitemap = ({ data }) => {
 
         <h2>Blog Posts</h2>
         <ul className="margin-top-0">
-          <li><Link to='/blog'>Blog home</Link></li>
+          <li><Link to='/blog'>Blog Home</Link></li>
           {posts.map(({ node }) => (
             <li key={node.frontmatter.path}>
               <Link to={node.frontmatter.path}>{node.frontmatter.date}: {node.frontmatter.title}</Link>
@@ -39,6 +39,7 @@ const Sitemap = ({ data }) => {
 
         <h2>Other</h2>
         <ul className="margin-top-0">
+          <li><Link to='/quote'>Random Quote</Link></li>
           <li><Link to='/404'>404</Link></li>
         </ul>
 
