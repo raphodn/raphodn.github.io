@@ -18,7 +18,7 @@
         },
         {
           "name": "Ruby on Rails",
-          "level": 3.5,
+          "level": 3,
           "description": ""
         },
         {
@@ -48,7 +48,7 @@
         },
         {
           "name": "Graph Databases",
-          "level": 4,
+          "level": 3.5,
           "description": "AWS Neptune, Neo4j"
         },
         {
@@ -88,7 +88,7 @@
       "skills": [
         {
           "name": "Javascript",
-          "level": 5,
+          "level": 4.5,
           "description": "TypeScript, AngularJS 1-7, D3.js, Web Components, Gatsby (React), ES6"
         },
         {
