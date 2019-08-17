@@ -25,7 +25,7 @@ const Post = ({
   // const nextLabel = nextPost && nextPost.frontmatter.title
 
   return (
-    <div className={style.post}>
+    <div className={`${style.post} ${!html ? style.postShort : ''}`}>
       <div className={style.postContent}>
         <h1 className={style.title}>
           <Link to={path}>{title}</Link>
@@ -45,25 +45,24 @@ const Post = ({
             Else show html & tags at the bottom */}
         {!html ? (
           <>
-            <p>{excerpt}</p>
-            <Link to={path} className={style.readMore}>
-              Read more →
-            </Link>
+            {excerpt ? (
+              <>
+                <p>{excerpt}</p>
+                {/* <Link to={path} className={style.readMore}>
+                  Read more →
+                </Link> */}
+              </>
+            ) : null}
           </>
         ) : (
           <>
+            <br />
             <div dangerouslySetInnerHTML={{ __html: html }} />
-            {/* <Navigation
-              previousPath={previousPath}
-              previousLabel={previousLabel}
-              nextPath={nextPath}
-              nextLabel={nextLabel}
-            /> */}
             <br />
             {tags ? (
               <div className={style.tags}>
                 {tags.map(tag => (
-                  <span>
+                  <span key={tag}>
                     <Link to={`/blog/tag/${toKebabCase(tag)}/`} key={toKebabCase(tag)}>
                       <span className={style.tag}>#{tag}</span>
                     </Link>
@@ -72,9 +71,14 @@ const Post = ({
                 ))}
               </div>
             ) : null}
+            {/* <Navigation
+              previousPath={previousPath}
+              previousLabel={previousLabel}
+              nextPath={nextPath}
+              nextLabel={nextLabel}
+            /> */}
           </>
         )}
-
       </div>
     </div>
   )

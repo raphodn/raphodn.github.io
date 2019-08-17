@@ -2,10 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
-import SEO from '../components/seo'
-import Layout from '../components/layout'
-import Post from '../components/post'
-import Navigation from '../components/navigation'
+import SEO from '../../components/seo'
+import Layout from '../../components/layout'
+import Post from '../../components/post'
+// import Navigation from '../../components/navigation'
 
 // const Blog = ({ data, pageContext: { nextPagePath, previousPagePath } }) => {
 const Blog = ({ data }) => {

@@ -30,6 +30,7 @@ const Sitemap = ({ data }) => {
         <h2>Blog Posts</h2>
         <ul className="margin-top-0">
           <li><Link to='/blog'>Blog Home</Link></li>
+          <li><Link to='/blog/tags'>Blog Tags</Link></li>
           {posts.map(({ node }) => (
             <li key={node.frontmatter.path}>
               <Link to={node.frontmatter.path}>{node.frontmatter.date}: {node.frontmatter.title}</Link>

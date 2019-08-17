@@ -7,7 +7,7 @@ import Layout from '../components/layout'
 import Post from '../components/post'
 import Navigation from '../components/navigation'
 
-import '../styles/layout.css'
+// import '../styles/layout.css'
 
 const Tags = ({
   data,
@@ -22,9 +22,9 @@ const Tags = ({
       <SEO />
       <Layout>
         <div className="infoBanner">
-          Posts with tag: <span style={{ 'font-weight': 'bold' }}>#{tag}</span>
+          Posts with tag: <span style={{ fontWeight: 'bold' }}>#{tag}</span>
           <span style={{ float: 'right' }}>
-            <Link to="/blog">Remove filter</Link>
+            <Link to="/blog">Remove filter</Link> | <Link to="/blog/tags">All tags</Link>
           </span>
         </div>
 

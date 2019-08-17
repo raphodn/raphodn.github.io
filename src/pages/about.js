@@ -4,7 +4,7 @@ import { Link, graphql } from 'gatsby'
 import SEO from '../components/seo'
 import Layout from '../components/layout'
 
-export default ({ data }) => (
+export default () => (
   <>
     <SEO />
     <Layout>
