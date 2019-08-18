@@ -71,6 +71,12 @@ export const postsQuery = graphql`
         node {
           id
           excerpt
+          timeToRead
+          wordCount {
+            paragraphs
+            sentences
+            words
+          }
           frontmatter {
             title
             date(formatString: "DD MMMM YYYY")

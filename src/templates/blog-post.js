@@ -37,6 +37,15 @@ BlogPostTemplate.propTypes = {
 export const pageQuery = graphql`
   query($path: String) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
+      id
+      html
+      excerpt
+      timeToRead
+      wordCount {
+        paragraphs
+        sentences
+        words
+      }
       frontmatter {
         title
         date(formatString: "DD MMMM YYYY")
@@ -52,9 +61,6 @@ export const pageQuery = graphql`
           }
         }
       }
-      id
-      html
-      excerpt
     }
   }
 `

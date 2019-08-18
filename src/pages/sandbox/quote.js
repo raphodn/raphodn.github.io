@@ -1,6 +1,5 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Prism from 'prismjs'
 
 import SEO from '../../components/seo'
 import Layout from '../../components/layout'
