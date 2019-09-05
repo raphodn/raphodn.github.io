@@ -1,3 +1,6 @@
+const { GraphQLScalarType } = require('graphql')
+// const { FeatureCollection, Feature, MultiPolygon, Polygon } = require('graphql-geojson')
+
 const { paginate } = require('gatsby-awesome-pagination')
 const { forEach, uniq, filter, not, isNil, flatMap } = require('rambdax')
 const path = require('path')
@@ -140,4 +143,29 @@ exports.sourceNodes = ({ actions }) => {
     }
   `
   createTypes(typeDefs)
+}
+
+exports.createResolvers = ({ createResolvers, schema }) => {
+  createResolvers({
+    Coordinates: new GraphQLScalarType({
+      name: "Coordinates",
+      description: "A set of coordinates. x, y",
+      serialize: value => value,
+      parseValue: value => value,
+      parseLiteral: ast => ast.value,
+    }),
+    ObjectType: new GraphQLScalarType({
+      name: "ObjectType",
+      description: "Arbitrary JSON value",
+      serialize: value => value,
+      parseValue: value => value,
+      parseLiteral: ast => ast.value,
+    }),
+    GeoJSON: {
+      __resolveType: (obj, context, info) => obj.type
+    },
+    Geometry: {
+      __resolveType: (obj, context, info) => obj.type
+    }
+  })
 }

@@ -1,11 +1,15 @@
 # Website
 
-This is the source code of [my personal website](https://raphodn.github.io/). Built with [Gatsby](https://www.gatsbyjs.org/).
+This is the source code of [my personal website](https://raphodn.github.io/).
+
+Built with [Gatsby](https://www.gatsbyjs.org/), a static-site generator powered by React & GraphQL.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+
 - [Installation](#installation)
+- [Branches](#branches)
 - [Useful resources](#useful-resources)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -32,6 +36,8 @@ This is the source code of [my personal website](https://raphodn.github.io/). Bu
 
   The app will be available at http://localhost:8000
 
+  A GraphQL client will also be available at http://localhost:8000/___graphql
+
 4. Build
 
   ```
@@ -54,5 +60,6 @@ development: raw code & pages
 
 Theme used: https://github.com/panr/gatsby-starter-hello-friend
 
-Emoji cheat sheet: https://www.webfx.com/tools/emoji-cheat-sheet/
-
+Emoji cheat sheet:
+- https://www.webfx.com/tools/emoji-cheat-sheet/
+- https://emojipedia.org/

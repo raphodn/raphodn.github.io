@@ -1,6 +1,6 @@
 import React from 'react'
 // import PropTypes from 'prop-types'
-import { useStaticQuery, graphql, Link } from 'gatsby'
+import { graphql, useStaticQuery, Link } from 'gatsby'
 
 import SEO from '../../components/seo'
 import Layout from '../../components/layout'
