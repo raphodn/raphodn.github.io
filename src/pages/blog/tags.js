@@ -16,7 +16,10 @@ export default () => {
   const data = useStaticQuery(graphql`
     query {
       allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "//posts//" }, frontmatter: { published: { eq: true } } }
+        filter: {
+          fileAbsolutePath: { regex: "//posts//" },
+          frontmatter: { published: { eq: true } }
+        }
       ) {
         edges {
           node {

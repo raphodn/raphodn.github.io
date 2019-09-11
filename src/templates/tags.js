@@ -62,8 +62,13 @@ Tags.propTypes = {
 export const postsQuery = graphql`
   query($limit: Int!, $skip: Int!, $tag: String!) {
     allMarkdownRemark(
-      filter: { frontmatter: { tags: { in: [$tag] }, published: { eq: true } } }
-      sort: { fields: [frontmatter___date], order: DESC }
+      filter: {
+        fileAbsolutePath: { regex: "//posts//" },
+        frontmatter: { tags: { in: [$tag] }, published: { eq: true } }
+      }
+      sort: {
+        fields: [frontmatter___date], order: DESC
+      }
       limit: $limit
       skip: $skip
     ) {

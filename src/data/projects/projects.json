@@ -1,0 +1,79 @@
+{
+  "name": "Projects",
+  "created_at": "2019-09-09",
+  "updated_at": "2019-09-09",
+  "projectGroups": [
+    {
+      "name": "Ongoing",
+      "links": [
+        {
+          "name": "Where I've Been Map",
+          "url": "/projects/where-ive-been-map",
+          "date": "",
+          "description": "All the countries I've travelled to and lived in.",
+          "backgroundImage": "url('/images/project-where-ive-been-map-backdrop.png')"
+        }
+      ]
+    },
+    {
+      "name": "Latest",
+      "links": [
+        {
+          "name": "OpenFoodFacts x Redmart",
+          "url": "/projects/openfoodfacts-redmart",
+          "date": "Apr 2019",
+          "description": "Looking at where my food comes from via my online grocery orders."
+        },
+        {
+          "name": "OpenStreetMap x Singapore",
+          "url": "/projects/openstreetmap-singapore",
+          "date": "Mar 2019",
+          "description": "Learning to OpenStreetMap one edit at the time."
+        }
+      ]
+    },
+    {
+      "name": "Past",
+      "links": [
+        {
+          "name": "Arrondissements of Paris",
+          "url": "/projects/arrondissements-paris",
+          "date": "Mar 2017",
+          "description": ""
+        },
+        {
+          "name": "Air France routes",
+          "url": "/projects/air-france-routes",
+          "date": "Feb 2017",
+          "description": ""
+        },
+        {
+          "name": "7 years of last.fm",
+          "url": "/projects/lastfm-analysis",
+          "date": "Jan 2017",
+          "description": "Analysis of my music habits.",
+          "backgroundImage": "url('/images/project-lastfm-analysis-backdrop.png')"
+        },
+        {
+          "name": "Previous website",
+          "url": "/projects/previous-website",
+          "date": "Dec 2016",
+          "description": ""
+        },
+        {
+          "name": "Data For Good x Oxfam",
+          "url": "/projects/data-for-good-oxfam",
+          "date": "Oct 2016 - Jan 2017",
+          "description": ""
+        },
+        {
+          "name": "Where Did I?",
+          "url": "/projects/where-did-i",
+          "date": "Nov 2014 - Fev 2015",
+          "description": "My first real coding project and what got me into web development.",
+          "backgroundImage": "url('/images/project-where-did-i-backdrop.png')"
+        }
+      ]
+    }
+  ]
+}

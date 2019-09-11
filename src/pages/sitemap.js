@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { graphql, Link } from 'gatsby'
 
 import SEO from '../components/seo'
@@ -52,11 +53,20 @@ const Sitemap = ({ data }) => {
   )
 }
 
+Sitemap.propTypes = {
+  data: PropTypes.object.isRequired,
+}
+
 export const postsQuery = graphql`
   {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "//posts//" }, frontmatter: { published: { eq: true } } }
-      sort: { fields: [frontmatter___date], order: ASC }
+      filter: {
+        fileAbsolutePath: { regex: "//posts//" },
+        frontmatter: { published: { eq: true } }
+      }
+      sort: {
+        fields: [frontmatter___date], order: ASC
+      }
     ) {
       edges {
         node {

@@ -20,18 +20,20 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
   return graphql(`
     {
       allMarkdownRemark(
-        sort: { fields: [frontmatter___date], order: DESC }
+        sort: {
+          fields: [frontmatter___date], order: DESC
+        }
         limit: 1000
       ) {
         edges {
           node {
+            fileAbsolutePath
             frontmatter {
               path
               title
               tags
               published
             }
-            fileAbsolutePath
           }
         }
       }
@@ -57,10 +59,8 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
       return (typeA > typeB) - (typeA < typeB)
     })
 
-    const posts = allNodes.filter(
-      ({ internal, fileAbsolutePath }) =>
-        internal.type === 'MarkdownRemark' &&
-        fileAbsolutePath.indexOf('/posts/') !== -1,
+    const posts = allNodes.filter(({ internal, fileAbsolutePath }) =>
+      internal.type === 'MarkdownRemark' && fileAbsolutePath.indexOf('/posts/') !== -1
     )
 
     // Create posts index with pagination
