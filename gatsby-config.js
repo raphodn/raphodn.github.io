@@ -119,6 +119,9 @@ module.exports = {
             resolve: `gatsby-remark-twemoji-shortcut`,
             options: {},
           },
+          {
+            resolve: `gatsby-remark-external-links`,
+          },
         ],
       },
     },
