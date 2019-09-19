@@ -8,3 +8,5 @@ tags: []
 ---
 
 https://raphaelodini.herokuapp.com/projects/map
+
+working on an updated version in ObservableHQ: https://observablehq.com/@raphodn/where-ive-been-map
