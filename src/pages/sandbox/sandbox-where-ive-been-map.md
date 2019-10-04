@@ -1,7 +1,7 @@
 ---
 title: "Where I've Been Map"
 date: ""
-path: "/projects/where-ive-been-map"
+path: "/sandbox/where-ive-been-map"
 excerpt: ""
 tags: []
 # published: true

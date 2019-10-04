@@ -4,18 +4,6 @@
   "updated_at": "2019-09-09",
   "projectGroups": [
     {
-      "name": "Ongoing",
-      "links": [
-        {
-          "name": "Where I've Been Map",
-          "url": "/projects/where-ive-been-map",
-          "date": "",
-          "description": "All the countries I've travelled to and lived in.",
-          "backgroundImage": "url('/images/project-where-ive-been-map-backdrop.png')"
-        }
-      ]
-    },
-    {
       "name": "Latest",
       "links": [
         {
