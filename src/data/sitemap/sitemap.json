@@ -29,6 +29,10 @@
         {
           "name": "Colophon",
           "url": "/colophon"
+        },
+        {
+          "name": "Lists",
+          "url": "/lists"
         }
       ]
     },
@@ -51,10 +55,6 @@
         {
           "name": "Where I've Been Map",
           "url": "/sandbox/where-ive-been-map"
-        },
-        {
-          "name": "Trekking in Nepal",
-          "url": "/sandbox/trekking-in-nepal"
         },
         {
           "name": "Random Quote",

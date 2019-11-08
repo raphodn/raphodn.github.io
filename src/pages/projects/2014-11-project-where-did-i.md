@@ -4,7 +4,7 @@ date: "2014-11"
 path: "/projects/where-did-i"
 excerpt: ""
 # tags: ["2014"]
-# published: true
+published: true
 ---
 
 "Foursquare meets Instagram"

@@ -4,7 +4,7 @@ date: "2016-10"
 path: "/projects/data-for-good-oxfam"
 excerpt: ""
 # tags: ["2016"]
-# published: true
+published: true
 ---
 
 [Data For Good](http://www.dataforgood.fr/) is a French community of data scientist & developers that put their skills to the benefit of solving social problems. First as a [meetup](https://www.meetup.com/Data-for-Good-FR/), it is now a small acceleration program, matching & accompanying voluntaries with associations and NGOs twice a year.

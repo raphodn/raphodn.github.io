@@ -21,9 +21,18 @@ const Sitemap = ({ data }) => {
           <section key={sitemapGroupIndex}>
             <h2>{sitemapGroup.name}</h2>
             <ul className="margin-top-0">
+              {/* sitemapJson children */}
               {sitemapGroup.links.map((child, childIndex) => (
                 <li key={childIndex}><Link to={child.url}>{child.name}</Link></li>
               ))}
+              {/* Projects children */}
+              {!(sitemapGroup.name === 'Projects') ? null : (
+                posts.filter(edge => edge.node.frontmatter.path.startsWith('/project')).map(({ node }) => (
+                  <li key={node.frontmatter.path}>
+                    <Link to={node.frontmatter.path}>{node.frontmatter.title}</Link>
+                  </li>
+                ))
+              )}
             </ul>
           </section>
         ))}
@@ -32,7 +41,7 @@ const Sitemap = ({ data }) => {
         <ul className="margin-top-0">
           <li><Link to='/blog'>Blog Home</Link></li>
           <li><Link to='/blog/tags'>Blog Tags</Link></li>
-          {posts.map(({ node }) => (
+          {posts.filter(edge => edge.node.frontmatter.path.startsWith('/blog')).map(({ node }) => (
             <li key={node.frontmatter.path}>
               <Link to={node.frontmatter.path}>{node.frontmatter.date}: {node.frontmatter.title}</Link>
             </li>
@@ -61,7 +70,6 @@ export const postsQuery = graphql`
   {
     allMarkdownRemark(
       filter: {
-        fileAbsolutePath: { regex: "//posts//" },
         frontmatter: { published: { eq: true } }
       }
       sort: {
