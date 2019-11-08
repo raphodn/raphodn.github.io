@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{223:function(e,n,a){"use strict";a.r(n);var t=a(0),l=a.n(t),r=(a(30),a(211)),u=a(212);n.default=function(e){e.data;return l.a.createElement(l.a.Fragment,null,l.a.createElement(r.a,null),l.a.createElement(u.a,null,l.a.createElement("h1",null,"Now"),l.a.createElement("p",null,"Coming soon :)")))}}}]);
+//# sourceMappingURL=component---src-pages-now-js-7179f7b9784b4a493177.js.map
