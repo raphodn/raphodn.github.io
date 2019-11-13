@@ -7,7 +7,7 @@ excerpt: ""
 published: true
 ---
 
-"Foursquare meets Instagram"
+## Foursquare meets Instagram
 
 With friends we wanted to have a platform where we could easily share geolocalized life events to each other or publicly. We felt Instagram or Facebook had too much overhead, and Foursquare or Yelp were only focused on bars & restaurants.
 
@@ -19,6 +19,7 @@ The long term vision was to aggregate the data per street/neighborhood/city/coun
 
 We were a team of 2 developers, building the website and a mobile application. We learned web development along the way. A great challenge and lots of coding hours :)
 
-Tech:
+## Tech
+
 - stack: Angular.js & Python/Django, OpenStreetMap API
 - hosting: own server
