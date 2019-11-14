@@ -1,7 +1,7 @@
 {
   "name": "Skills",
   "created_at": "2019-06-23",
-  "updated_at": "2019-06-23",
+  "updated_at": "2019-11-12",
   "skillGroups": [
     {
       "name": "Backend & Data Analysis",
@@ -140,11 +140,6 @@
           "name": "Atlassian",
           "level": null,
           "description": "JIRA, Confluence, Bitbucket"
-        },
-        {
-          "name": "MS Office",
-          "level": null,
-          "description": ""
         }
       ]
     },
@@ -154,7 +149,7 @@
         {
           "name": "AWS Solutions Architect",
           "level": null,
-          "description": "soon hopefully :)"
+          "description": "2019"
         },
         {
           "name": "Blockchain Developer Program (ConsenSys Academy)",

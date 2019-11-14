@@ -81,7 +81,7 @@ export default () => (
       <h2>Contact</h2>
 
       <p>
-        You can reach out to me through Twitter, or via email (firstname <i>dot</i> lastname <i>at</i> gmail <i>dot</i> com).
+        You can reach out to me through Twitter, or via email (firstname <i className="smaller">dot</i> lastname <i className="smaller">at</i> protonmail <i className="smaller">dot</i> com).
       </p>
     </Layout>
   </>
