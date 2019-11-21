@@ -2,6 +2,7 @@
 title: "Where I've Been Map"
 date: ""
 path: "/sandbox/where-ive-been-map"
+parent: "sandbox"
 excerpt: ""
 tags: []
 # published: true

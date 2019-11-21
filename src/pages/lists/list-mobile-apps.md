@@ -2,6 +2,7 @@
 title: "Favorite Mobile Apps"
 date: ""
 path: "/lists/mobile-apps"
+parent: "lists"
 excerpt: ""
 # tags: ["list"]
 published: true
@@ -13,13 +14,13 @@ _Legend: :book: open source, :fr: french_
 
 ## Note taking
 
-- Evernote
-- Simplenote
+- Evernote (note taking. my 2nd brain)
+- Simplenote (for quick on-the-fly note taking)
 
 ## News, Podcasts, Content
 
 - Pocket (save articles to read later)
-- Podcast Addict :fr:
+- Podcast Addict :fr: / _related: [List: Favorite Podcasts](/lists/podcasts)_
 - NewPipe :book: (YouTube client)
 
 ## Food
@@ -30,28 +31,28 @@ _Legend: :book: open source, :fr: french_
 ## Mobility, Travel
 
 - Citymapper (multi-city transport app)
-- Maps.ME :book: (offline OpenStreetMap data)
+- Maps.ME :book: (offline OpenStreetMap data, great when travelling)
 
 ## Health, Sports
 
-- Loop Habit Tracker :book: (track your habits)
-- Strava (track running & cycling routes)
+- Strava (track running & cycling activities)
 
 ## Money
 
-- Expenses :book: (track your expenses)
+- My Expenses :book: (track your expenses) / [link](http://www.myexpenses.mobi/)
 
 ## Other
 
+- Loop Habit Tracker :book: (track your habits) / [link](https://github.com/iSoron/uhabits/)
 - Telegram :book: (chat)
 - Brave (or Firefox :book:) (browser)
 - AdAway :book: (ad blocker, need root)
+- CF.lumen (color filter to reduce eye strain)
 
 <br>
 <hr>
 
-## Other useful resources
+## Useful resources
 
 - https://humanetech.com/
 - https://github.com/pcqpcq/open-source-android-apps
-

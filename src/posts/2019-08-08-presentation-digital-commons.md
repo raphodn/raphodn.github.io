@@ -2,6 +2,7 @@
 title: "A presentation on the digital commons"
 date: "2019-08-08"
 path: "/blog/presentation-digital-commons"
+parent: "blog"
 excerpt: ""
 tags: ["digital-commons", "2019"]
 published: true

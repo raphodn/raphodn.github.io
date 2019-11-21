@@ -23,6 +23,7 @@ const Blog = ({ data }) => {
             title={node.frontmatter.title}
             date={node.frontmatter.date}
             path={node.frontmatter.path}
+            parent={node.frontmatter.parent}
             coverImage={node.frontmatter.coverImage}
             tags={node.frontmatter.tags}
             excerpt={node.frontmatter.excerpt || node.autoExcerpt}
@@ -73,6 +74,7 @@ export const postsQuery = graphql`
             title
             date(formatString: "DD MMMM YYYY")
             path
+            parent
             excerpt
             tags
             published

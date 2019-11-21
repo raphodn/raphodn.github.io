@@ -4,6 +4,8 @@ import { graphql } from 'gatsby'
 import SEO from '../../components/seo'
 import Layout from '../../components/layout'
 
+import stylePost from '../../styles/post.module.css'
+
 const randomGenerator = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1)) + min
 }
@@ -52,6 +54,9 @@ export default class QuotePage extends React.Component {
             The quote is taken from my Goodreads account's saved quotes.
             <br />Refresh the page or click this <button type="button" onClick={() => this.changeQuote()}>button</button> to get a new one!
           </p>
+
+          <br />
+          <a href="/sandbox" className={stylePost.readMore}>← Back to sandbox</a>
         </Layout>
       </>
     )

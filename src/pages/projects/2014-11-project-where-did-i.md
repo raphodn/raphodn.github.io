@@ -2,6 +2,7 @@
 title: "Where Did I?"
 date: "2014-11"
 path: "/projects/where-did-i"
+parent: "projects"
 excerpt: ""
 # tags: ["2014"]
 published: true

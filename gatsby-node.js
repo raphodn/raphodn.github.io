@@ -29,8 +29,9 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
           node {
             fileAbsolutePath
             frontmatter {
-              path
               title
+              path
+              parent
               tags
               published
             }
@@ -134,8 +135,9 @@ exports.sourceNodes = ({ actions }) => {
 
     type Frontmatter {
       title: String!
-      date: Date!
+      date: Date
       path: String!
+      parent: String
       tags: [String!]
       published: Boolean
       excerpt: String

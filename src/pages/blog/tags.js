@@ -28,6 +28,7 @@ export default () => {
               title
               date(formatString: "DD MMMM YYYY")
               path
+              parent
               excerpt
               tags
               published

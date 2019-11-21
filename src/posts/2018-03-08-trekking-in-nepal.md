@@ -2,6 +2,7 @@
 title: "Trekking in Nepal"
 date: "2018-03-08"
 path: "/blog/trekking-in-nepal"
+parent: "blog"
 excerpt: ""
 tags: ["2018", "nepal"]
 published: true
@@ -20,5 +21,3 @@ _More to come_
 ## Everest
 
 soon :)
-
-

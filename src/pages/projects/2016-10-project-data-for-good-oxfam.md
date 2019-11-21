@@ -2,6 +2,7 @@
 title: "Data For Good x Oxfam"
 date: "2016-10"
 path: "/projects/data-for-good-oxfam"
+parent: "projects"
 excerpt: ""
 # tags: ["2016"]
 published: true

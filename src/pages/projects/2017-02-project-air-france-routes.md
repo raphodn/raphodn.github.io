@@ -2,6 +2,7 @@
 title: "Air France routes"
 date: "2017-02"
 path: "/projects/air-france-routes"
+parent: "projects"
 excerpt: ""
 # tags: ["2017"]
 published: true

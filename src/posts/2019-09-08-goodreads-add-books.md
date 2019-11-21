@@ -2,6 +2,7 @@
 title: "Adding books programmatically to Goodreads"
 date: "2019-09-08"
 path: "/blog/goodreads-add-books"
+parent: "blog"
 excerpt: ""
 tags: ["goodreads", "2019"]
 published: true

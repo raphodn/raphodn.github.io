@@ -17,7 +17,7 @@ const Lists = ({ data }) => {
         <h1>Lists</h1>
         
         <p>
-          I <i>kinda</i> like to make lists. This page will serve the purpose to list those lists :)
+          I like to make lists. This page will serve the purpose to list those lists :)
         </p>
 
         <ul className="margin-top-0">
@@ -44,7 +44,7 @@ export const listsQuery = graphql`
         frontmatter: { published: { eq: true } }
       }
       sort: {
-        fields: [frontmatter___date], order: ASC
+        fields: [frontmatter___title], order: ASC
       }
     ) {
       edges {
@@ -61,6 +61,7 @@ export const listsQuery = graphql`
             title
             date(formatString: "DD MMMM YYYY")
             path
+            parent
             excerpt
             tags
             published

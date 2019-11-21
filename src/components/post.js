@@ -12,6 +12,7 @@ const Post = ({
   title,
   date,
   path,
+  parent,
   coverImage,
   excerpt,
   tags,
@@ -31,7 +32,7 @@ const Post = ({
           <Link to={path}>{title}</Link>
         </h1>
         <div className={style.meta}>
-          {date}
+          {(!date || (date === 'Invalid date')) ? '' : date}
         </div>
 
         {coverImage && (
@@ -57,8 +58,10 @@ const Post = ({
         ) : (
           <>
             <br />
+            {/* Content */}
             <div dangerouslySetInnerHTML={{ __html: html }} />
             <br />
+            {/* Tags */}
             {tags ? (
               <div className={style.tags}>
                 {tags.map(tag => (
@@ -71,6 +74,14 @@ const Post = ({
                 ))}
               </div>
             ) : null}
+            {/* Back to parent */}
+            {/* {parent} */}
+            {parent ? (
+              <Link to={`/${parent}`} className={style.readMore}>
+                ← Back to {parent}
+              </Link>
+            ) : null}
+            {/* Navigation */}
             {/* <Navigation
               previousPath={previousPath}
               previousLabel={previousLabel}
@@ -88,6 +99,7 @@ Post.propTypes = {
   title: PropTypes.string,
   date: PropTypes.string,
   path: PropTypes.string,
+  parent: PropTypes.string,
   coverImage: PropTypes.object,
   excerpt: PropTypes.string,
   html: PropTypes.string,

@@ -2,6 +2,7 @@
 title: "Trekking in Nepal #2"
 date: "2019-11-06"
 path: "/blog/trekking-in-nepal-2"
+parent: "blog"
 excerpt: ""
 tags: ["2019", "nepal"]
 published: true

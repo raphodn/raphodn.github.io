@@ -17,6 +17,7 @@ const BlogPostTemplate = ({ data }) => (
       title={data.markdownRemark.frontmatter.title}
       date={data.markdownRemark.frontmatter.date}
       path={data.markdownRemark.frontmatter.path}
+      parent={data.markdownRemark.frontmatter.parent}
       coverImage={data.markdownRemark.frontmatter.coverImage}
       html={data.markdownRemark.html}
       tags={data.markdownRemark.frontmatter.tags}
@@ -50,6 +51,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "DD MMMM YYYY")
         path
+        parent
         excerpt
         tags
         published

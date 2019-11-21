@@ -2,6 +2,7 @@
 title: "New personal website!"
 date: "2019-05-05"
 path: "/blog/new-personal-website"
+parent: "blog"
 excerpt: ""
 tags: ["2019"]
 published: true
