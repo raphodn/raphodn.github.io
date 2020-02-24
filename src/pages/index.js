@@ -11,17 +11,17 @@ export default ({ data }) => (
       <h1>Hi there !</h1>
       
       <p>
-        I'm a French full-stack developer, currently based in Singapore.
+        I'm a French full-stack developer, currently based in <del>Singapore</del> Paris.
       </p>
 
       <p>
         Datalover, passionately curious, I'm always eager to learn & build (meaningful) stuff.<br />
         I have a strong interest in data visualization & cartography, digital commons, decentralized systems,
-        and any interdisciplinary subject involving data.
+        and any interdisciplinary subject involving data. I'm also quite aware and concerned about the climate emergency..
       </p>
 
       <p>
-        Oh and I like penguins 🐧
+        Oh and I like penguins <span role="img" aria-label="penguin emoji">🐧</span>
       </p>
 
       <p>

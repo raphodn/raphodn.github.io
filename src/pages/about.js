@@ -24,17 +24,18 @@ export default () => (
       <p>
         After working 2 years as a Product Engineer (full-stack web development & data science)
         at <i><a href="https://www.ekimetrics.com/" target="_blank" rel="noopener noreferrer">Ekimetrics</a></i> in Paris,
-        I relocated in 2017 to South-East Asia to explore new opportunities and challenges.
+        I relocated in 2017 to South-East Asia (Singapore 🇸🇬 !) to explore new opportunities and challenges.
+        2 and a half years later it was time to move back to France.
       </p>
 
       <p>
-        I'm currently working as a full-stack developer for <i><a href="https://www.refinitiv.com/" target="_blank" rel="noopener noreferrer">Refinitiv</a> <a href="https://www.refinitiv.com/en/innovation-labs" target="_blank" rel="noopener noreferrer">Labs</a></i> in Singapore 🇸🇬.
+        I'm currently working as a full-stack developer for <i><a href="https://beta.gouv.fr/" target="_blank" rel="noopener noreferrer">beta.gouv.fr</a></i>.
       </p>
 
       <h2>Professional Experiences & Skills</h2>
 
       <p>
-        I have over 4 years of experience working as a full-stack developer, on a dozen+ different projects, in teams of various sizes and nationalities.
+        I have 5 years of experience working as a full-stack developer, on a dozen+ different projects, in teams of various sizes and nationalities.
       </p>
 
       <p>
@@ -81,7 +82,8 @@ export default () => (
       <h2>Contact</h2>
 
       <p>
-        You can reach out to me through Twitter, or via email (firstname <i className="smaller">dot</i> lastname <i className="smaller">at</i> protonmail <i className="smaller">dot</i> com).
+        You can reach out to me through Twitter,
+        or via email (firstname <i className="smaller">dot</i> lastname <i className="smaller">at</i> protonmail <i className="smaller">dot</i> com).
       </p>
     </Layout>
   </>
