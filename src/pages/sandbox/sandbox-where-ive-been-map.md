@@ -1,6 +1,6 @@
 ---
 title: "Where I've Been Map"
-date: ""
+date: "2000-01-01"
 path: "/sandbox/where-ive-been-map"
 parent: "sandbox"
 excerpt: ""

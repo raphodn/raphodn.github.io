@@ -1,6 +1,6 @@
 ---
 title: "Favorite Podcasts"
-# date: ""
+date: "2000-01-01"
 path: "/lists/podcasts"
 parent: "lists"
 excerpt: ""

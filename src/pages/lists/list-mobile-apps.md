@@ -1,6 +1,6 @@
 ---
 title: "Favorite Mobile Apps"
-date: ""
+date: "2000-01-01"
 path: "/lists/mobile-apps"
 parent: "lists"
 excerpt: ""

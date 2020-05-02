@@ -26,7 +26,7 @@ export default () => {
             id
             frontmatter {
               title
-              date(formatString: "DD MMMM YYYY")
+              date
               path
               parent
               excerpt

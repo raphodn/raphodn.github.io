@@ -1,6 +1,6 @@
 ---
 title: "Quantified Life"
-# date: ""
+date: "2000-01-01"
 path: "/lists/quantified-life"
 parent: "lists"
 excerpt: ""

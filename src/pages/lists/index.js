@@ -59,7 +59,7 @@ export const listsQuery = graphql`
           }
           frontmatter {
             title
-            date(formatString: "DD MMMM YYYY")
+            date
             path
             parent
             excerpt
