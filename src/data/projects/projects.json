@@ -4,6 +4,17 @@
   "updated_at": "2019-09-09",
   "projectGroups": [
     {
+      "name": "Ongoing",
+      "links": [
+        {
+          "name": "Know Your Planet (Quiz Planète)",
+          "url": "/projects/know-your-planet",
+          "date": "Mar 2020",
+          "description": "Des questions/réponses pour mieux appréhender les limites de notre planète."
+        }
+      ]
+    },
+    {
       "name": "Latest",
       "links": [
         {

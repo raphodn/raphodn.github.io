@@ -14,7 +14,7 @@ const Projects = ({ data }) => {
       <Layout>
         <h1>Projects</h1>
         <p>
-          A list of past, current and futur projects.
+          A list of past, current and future projects.
         </p>
         {/* <br /> */}
         {projectsJson.projectGroups.map((projectGroup, projectGroupIndex) => (
