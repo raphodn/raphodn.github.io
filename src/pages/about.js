@@ -17,14 +17,14 @@ export default () => (
       <h2>Background</h2>
 
       <p>
-        Born & raised in the French Alps ( <i><a href="https://www.google.fr/maps/place/Grenoble/@45.9918528,0.6514919,6z/" target="_blank" rel="noopener noreferrer">Grenoble</a></i> 🏔),
+        Born & raised in the French Alps ( <i><a href="https://www.google.fr/maps/place/Grenoble/@45.9918528,0.6514919,6z/" target="_blank" rel="noopener noreferrer">Grenoble</a></i> 🏔️),
         I obtained a Master's degree in Telecom & CS at <i>INSA de Lyon</i>.
       </p>
 
       <p>
         After working 2 years as a Product Engineer (full-stack web development & data science)
         at <i><a href="https://www.ekimetrics.com/" target="_blank" rel="noopener noreferrer">Ekimetrics</a></i> in Paris,
-        I relocated in 2017 to South-East Asia (Singapore 🇸🇬 !) to explore new opportunities and challenges.
+        I relocated in 2017 to South-East Asia (Singapore 🇸🇬) to explore new opportunities and challenges.
         2 and a half years later it was time to move back to France.
       </p>
 
@@ -63,7 +63,7 @@ export default () => (
       <p>
         <FontAwesomeIcon icon={faHiking} />&nbsp;
         <b>A subset of activities I enjoy doing: </b>
-        Reading & Learning, Football, Urban cycling, Piano, Snowboard, Sailing, Hiking, Backpacking, Origami, Stargazing
+        Reading & Learning, Football, Hiking, Cycling, Piano, Snowboard, Sailing, Backpacking, Origami, Stargazing
       </p>
 
       <h2>Elsewhere Online</h2>
