@@ -17,7 +17,7 @@ export default () => (
       <h2>Background</h2>
 
       <p>
-        Born & raised in the French Alps ( <i><a href="https://www.google.fr/maps/place/Grenoble/@45.9918528,0.6514919,6z/" target="_blank" rel="noopener noreferrer">Grenoble</a></i> 🏔️),
+        Born & raised in the French Alps ( <i><a href="https://www.qwant.com/maps/place/admin:osm:relation:80348@Grenoble_38000-38100" target="_blank" rel="noopener noreferrer">Grenoble</a></i> 🏔️),
         I obtained a Master's degree in Telecom & CS at <i>INSA de Lyon</i>.
       </p>
 
@@ -25,11 +25,11 @@ export default () => (
         After working 2 years as a Product Engineer (full-stack web development & data science)
         at <i><a href="https://www.ekimetrics.com/" target="_blank" rel="noopener noreferrer">Ekimetrics</a></i> in Paris,
         I relocated in 2017 to South-East Asia (Singapore 🇸🇬) to explore new opportunities and challenges.
-        2 and a half years later it was time to move back to France.
       </p>
 
       <p>
-        I'm currently working as a full-stack developer for <i><a href="https://beta.gouv.fr/" target="_blank" rel="noopener noreferrer">beta.gouv.fr</a></i>.
+        2 and a half years later it was time to move back to France.
+        I'm currently working as a freelance full-stack developer for <i><a href="https://beta.gouv.fr/" target="_blank" rel="noopener noreferrer">beta.gouv.fr</a></i>.
       </p>
 
       <h2>Professional Experiences & Skills</h2>
