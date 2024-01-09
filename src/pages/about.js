@@ -3,7 +3,7 @@ import { Link, graphql } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-regular-svg-icons'
 import { faBook, faBookOpen, faBookReader, faHiking } from '@fortawesome/free-solid-svg-icons'
-import { faLeanpub, faTwitter, faTwitterSquare, faGithub, faAngellist } from '@fortawesome/free-brands-svg-icons'
+import { faLeanpub, faTwitter, faTwitterSquare, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 import SEO from '../components/seo'
 import Layout from '../components/layout'
@@ -35,15 +35,17 @@ export default () => (
       <h2>Professional Experiences & Skills</h2>
 
       <p>
-        I have 5 years of experience working as a full-stack developer, on a dozen+ different projects, in teams of various sizes and nationalities.
+        I have 8 years of experience working as a full-stack developer, on a dozen+ different projects,
+        in teams of various sizes and nationalities.
       </p>
 
       <p>
-        I've developed and maintained applications using all kinds of languages, frameworks, databases and cloud providers. I'm most comfortable with Javascript & Python.
+        I've developed and maintained applications using all kinds of languages, frameworks, databases and cloud providers.
+        I'm most comfortable with Javascript & Python.
       </p>
 
       <p>
-        I enjoy writing clean code and building solid APIs.
+        I enjoy writing clean code and building solid APIs. Open-source by default :)
       </p>
 
       <p>
@@ -54,7 +56,8 @@ export default () => (
 
       <p>
         <FontAwesomeIcon icon={faBookReader} />&nbsp;
-        <b>Fields I care about: </b>
+        <b>Fields I care about</b>
+        <br />
         Data visualization, Cartography, Digital commons, Privacy, Knowledge Management, Social entrepreneurship,
         Data journalism, Education & Civic tech, Blockchain & Decentralization, Graph databases, Zero waste, Sustainability & Resilience,
         Future of food, Maker culture & Low tech, Urbanism & Urbex, Creative code, Contemporary art with a touch of data
@@ -62,28 +65,28 @@ export default () => (
 
       <p>
         <FontAwesomeIcon icon={faHiking} />&nbsp;
-        <b>A subset of activities I enjoy doing: </b>
+        <b>A subset of activities I enjoy doing</b>
+        <br />
         Reading & Learning, Football, Hiking, Cycling, Piano, Snowboard, Sailing, Backpacking, Origami, Stargazing
       </p>
 
       <h2>Elsewhere Online</h2>
 
       <p>
-        <FontAwesomeIcon icon={faTwitter} />&nbsp;
-        I (re)tweet stuff <a href="https://twitter.com/raphodn" target="_blank" rel="noopener noreferrer">@raphodn</a>
+      <FontAwesomeIcon icon={faLinkedin} />&nbsp;
+        My professional background on <a href="https://www.linkedin.com/in/raphaelodini/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         <br />
         <FontAwesomeIcon icon={faGithub} />&nbsp;
         Check out my code on <a href="https://github.com/raphodn" target="_blank" rel="noopener noreferrer">Github</a>
         <br />
-        <FontAwesomeIcon icon={faAngellist} />&nbsp;
-        My professional background on <a href="https://www.linkedin.com/in/raphaelodini/" target="_blank" rel="noopener noreferrer">LinkedIn</a> & <a href="https://angel.co/raphaelodini" target="_blank" rel="noopener noreferrer">AngelList</a>
+        <FontAwesomeIcon icon={faTwitter} />&nbsp;
+        I (re)tweet stuff <a href="https://twitter.com/raphodn" target="_blank" rel="noopener noreferrer">@raphodn</a>
       </p>
 
       <h2>Contact</h2>
 
       <p>
-        You can reach out to me through Twitter,
-        or via email (firstname <i className="smaller">dot</i> lastname <i className="smaller">at</i> protonmail <i className="smaller">dot</i> com).
+        You can reach out to me via email (firstname <i className="smaller">dot</i> lastname <i className="smaller">at</i> protonmail <i className="smaller">dot</i> com).
       </p>
     </Layout>
   </>

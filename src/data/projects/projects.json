@@ -7,8 +7,20 @@
       "name": "Ongoing",
       "links": [
         {
-          "name": "Know Your Planet (Quiz Planète)",
-          "url": "/projects/know-your-planet",
+          "name": "Open Food Facts x prices",
+          "url": "/projects/openfoodfacts-prices",
+          "date": "Oct 2023",
+          "description": "Et si on se mettait à stocker les prix dans Open Food Facts ?"
+        },
+        {
+          "name": "Epicerie participative : l'Éléfàn",
+          "url": "/projects/epicerie-elefan",
+          "date": "May 2021",
+          "description": "Développer des outils communs pour les épiceries participatives"
+        },
+        {
+          "name": "Quiz de l'Anthropocène",
+          "url": "/projects/quiz-anthropocene",
           "date": "Mar 2020",
           "description": "Des questions/réponses pour mieux appréhender les limites de notre planète."
         }
@@ -18,7 +30,7 @@
       "name": "Latest",
       "links": [
         {
-          "name": "OpenFoodFacts x Redmart",
+          "name": "Open Food Facts x Redmart",
           "url": "/projects/openfoodfacts-redmart",
           "date": "Apr 2019",
           "description": "Looking at where my food comes from via my online grocery orders."

@@ -1,5 +1,5 @@
 ---
-title: "OpenFoodFacts x Redmart"
+title: "Open Food Facts x Redmart"
 date: "2019-04"
 path: "/projects/openfoodfacts-redmart"
 parent: "projects"
@@ -21,13 +21,13 @@ _Examples of products 'Made in Singapore'_
 
 ## Product informations
 
-WIP (barcodes, labels (Healthier Choice Singapore), database, apis, OpenFoodFacts)
+WIP (barcodes, labels (Healthier Choice Singapore), database, apis, Open Food Facts)
 
 ## Demo
 
 WIP: https://observablehq.com/@raphodn/openfoodfacts-x-redmart
 
-Also a couple of Python Notebooks for interacting with the Redmart & OpenFoodFacts APIs.
+Also a couple of Python Notebooks for interacting with the Redmart & Open Food Facts APIs.
 
 ## Go further
 

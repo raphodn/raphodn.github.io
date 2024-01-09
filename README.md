@@ -50,11 +50,13 @@ Built with [Gatsby](https://www.gatsbyjs.org/), a static-site generator powered 
   yarn deploy
   ```
 
+  Builds and pushes the code to the master branch
+
 ## Branches
 
-master: deployed static website. `yarn deploy` builds and pushes the code to the master branch.
+`master` deployed static website
 
-development: raw code & pages
+`development` raw code & pages
 
 ## Useful resources
 
