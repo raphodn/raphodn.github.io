@@ -10,19 +10,22 @@
           "name": "Open Food Facts x prices",
           "url": "/projects/openfoodfacts-prices",
           "date": "Oct 2023",
-          "description": "Et si on se mettait à stocker les prix dans Open Food Facts ?"
+          "description": "Et si on se mettait à stocker les prix dans Open Food Facts ?",
+          "backgroundImage": "url('/images/project-openfoodfacts-prices-backdrop.png')"
         },
         {
           "name": "Epicerie participative : l'Éléfàn",
           "url": "/projects/epicerie-elefan",
           "date": "May 2021",
-          "description": "Développer des outils communs pour les épiceries participatives"
+          "description": "Développer des outils communs pour les épiceries participatives",
+          "backgroundImage": "url('/images/project-epicerie-elefan-backdrop.jpg')"
         },
         {
           "name": "Quiz de l'Anthropocène",
           "url": "/projects/quiz-anthropocene",
           "date": "Mar 2020",
-          "description": "Des questions/réponses pour mieux appréhender les limites de notre planète."
+          "description": "Des questions/réponses pour mieux appréhender les limites de notre planète.",
+          "backgroundImage": "url('/images/project-quiz-anthropocene-backdrop.png')"
         }
       ]
     },
@@ -33,7 +36,8 @@
           "name": "Open Food Facts x Redmart",
           "url": "/projects/openfoodfacts-redmart",
           "date": "Apr 2019",
-          "description": "Looking at where my food comes from via my online grocery orders."
+          "description": "Looking at where my food comes from via my online grocery orders.",
+          "backgroundImage": "url('/images/project-openfoodfacts-redmart-backdrop.png')"
         },
         {
           "name": "OpenStreetMap x Singapore",
@@ -75,7 +79,8 @@
           "name": "Data For Good x Oxfam",
           "url": "/projects/data-for-good-oxfam",
           "date": "Oct 2016 - Jan 2017",
-          "description": ""
+          "description": "",
+          "backgroundImage": "url('/images/project-data-for-good-oxfam-backdrop.png')"
         },
         {
           "name": "Where Did I?",
