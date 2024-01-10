@@ -18,12 +18,16 @@ module.exports = {
     logoText: 'Raphael Odini',
     defaultTheme: 'dark',
     postsPerPage: 5,
-    showMenuItems: 3,
+    showMenuItems: 4,
     menuMoreText: 'Show more',
     mainMenu: [
       {
         title: 'About',
         path: '/about',
+      },
+      {
+        title: 'Work',
+        path: '/work',
       },
       {
         title: 'Projects',

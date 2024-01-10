@@ -32,7 +32,9 @@ export default () => (
         I'm currently working as a freelance full-stack developer for <i><a href="https://beta.gouv.fr/" target="_blank" rel="noopener noreferrer">beta.gouv.fr</a></i>.
       </p>
 
-      <h2>Professional Experiences & Skills</h2>
+      <br />
+
+      <h2>Work Experiences & Skills</h2>
 
       <p>
         I have 8 years of experience working as a full-stack developer, on a dozen+ different projects,
@@ -49,8 +51,10 @@ export default () => (
       </p>
 
       <p>
-        See <Link to='/skills'>Skills</Link> and <Link to='/experiences'>Experiences</Link> for more details.
+        See <Link to='/work'>Work experiences</Link> and <Link to='/skills'>Skills</Link> for more details.
       </p>
+
+      <br />
 
       <h2>Passions</h2>
 
@@ -70,6 +74,8 @@ export default () => (
         Reading & Learning, Football, Hiking, Cycling, Piano, Snowboard, Sailing, Backpacking, Origami, Stargazing
       </p>
 
+      <br />
+
       <h2>Elsewhere Online</h2>
 
       <p>
@@ -82,6 +88,8 @@ export default () => (
         <FontAwesomeIcon icon={faTwitter} />&nbsp;
         I (re)tweet stuff <a href="https://twitter.com/raphodn" target="_blank" rel="noopener noreferrer">@raphodn</a>
       </p>
+
+      <br />
 
       <h2>Contact</h2>
 
