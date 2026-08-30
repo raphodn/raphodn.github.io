@@ -37,7 +37,7 @@ export default () => (
       <h2>Work Experiences & Skills</h2>
 
       <p>
-        I have 8 years of experience working as a full-stack developer, on a dozen+ different projects,
+        I have 10 years of experience working as a full-stack developer, on a dozen+ different projects,
         in teams of various sizes and nationalities.
       </p>
 
@@ -84,9 +84,6 @@ export default () => (
         <br />
         <FontAwesomeIcon icon={faGithub} />&nbsp;
         Check out my code on <a href="https://github.com/raphodn" target="_blank" rel="noopener noreferrer">Github</a>
-        <br />
-        <FontAwesomeIcon icon={faTwitter} />&nbsp;
-        I (re)tweet stuff <a href="https://twitter.com/raphodn" target="_blank" rel="noopener noreferrer">@raphodn</a>
       </p>
 
       <br />
